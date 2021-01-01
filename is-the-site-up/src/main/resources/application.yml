@@ -1,6 +1,6 @@
 spring:
     application:
-        name: local
+        name: e0
 ---
 server:
     port: 8443
