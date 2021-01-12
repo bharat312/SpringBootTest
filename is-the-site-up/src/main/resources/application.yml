@@ -1,6 +1,9 @@
 spring:
-    application:
-        name: e1
+    profiles:
+        active: local
 ---
+spring:
+    profiles: local
+
 server:
-    port: 8443
+    port: 8447
